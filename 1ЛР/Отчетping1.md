@@ -3,22 +3,27 @@
 
 ## Результаты выполнения
 Результаты выполнения
-PING example.com (23.192.228.80) 56(84) bytes of data.
-64 bytes from a23-192-228-80.deploy.static.akamaitechnologies.com (23.192.228.80): icmp_seq=1 ttl=45 time=309 ms
-64 bytes from a23-192-228-80.deploy.static.akamaitechnologies.com (23.192.228.80): icmp_seq=2 ttl=45 time=259 ms
-64 bytes from a23-192-228-80.deploy.static.akamaitechnologies.com (23.192.228.80): icmp_seq=3 ttl=45 time=356 ms
-64 bytes from a23-192-228-80.deploy.static.akamaitechnologies.com (23.192.228.80): icmp_seq=4 ttl=45 time=276 ms
-64 bytes from a23-192-228-80.deploy.static.akamaitechnologies.com (23.192.228.80): icmp_seq=5 ttl=45 time=299 ms
+PING google.com (64.233.162.102) 56(84) bytes of data.
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=1 ttl=105 time=162 ms
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=2 ttl=105 time=125 ms
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=3 ttl=105 time=208 ms
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=4 ttl=105 time=231 ms
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=5 ttl=105 time=152 ms
+64 bytes from li-in-f102.1e100.net (64.233.162.102): icmp_seq=6 ttl=105 time=124 ms
+
+--- google.com ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5005ms
+rtt min/avg/max/mdev = 124.130/167.133/231.249/40.116 ms
+
 ## Анализ результатов
 
 ### Доступность узла:
-- Узел example.com доступен
-- IP-адрес: 23.192.228.80
-- Хост принадлежит Akamai Technologies
-- Среднее время отклика: 299.679 мс
-- Минимальное время: 258.668 мс
-- Максимальное время: 355.678 мс
-- Отклонение (mdev): 32.984 мс
+- Узел goggle.com доступен
+- IP-адрес: 64.233.162.102
+  ## Задержка (rtt) :
+  - Минимальная : 124.130 мс  
+  - Средняя : 167.133 мс  
+  - Максимальная : 231.249 мс  
 
 ### TTL (Time To Live):
-- TTL=45
+- TTL=105
