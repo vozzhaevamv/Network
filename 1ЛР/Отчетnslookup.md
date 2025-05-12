@@ -7,37 +7,31 @@ nslookup  - это утилита для запросов к DNS-сервера�
 5.	Исследовать другие типы DNS-записей (NS, SOA, TXT и др.)
 
 ## Результаты выполнения
-Server:  192.168.50.1
-Address: 192.168.50.1#53
+nslookup google.com
+Server:		192.168.50.1
+Address:	192.168.50.1#53
+
 Non-authoritative answer:
-Name: example.com
-Address: 96.7.128.175
-Name: example.com
-Address: 96.7.128.198
-Name: example.com
-Address: 23.215.0.136
-Name: example.com
-Address: 23.192.228.84
-Name: example.com
-Address: 23.215.0.138
-Name: example.com
-Address: 23.192.228.80
-Name: example.com
-Address: 2600:1406:bc00:53::b81e:94c8
-Name: example.com
-Address: 2600:1406:bc00:53::b81e:94ce
-Name: example.com
-Address: 2600:1406:3a00:21::173e:2e66
-Name: example.com
-Address: 2600:1406:3a00:21::173e:2e65
-Name: example.com
-Address: 2600:1408:ec00:36::1736:7f31
-Name: example.com
-Address: 2600:1408:ec00:36::1736:7f24
+Name:	google.com
+Address: 142.250.74.46
+Name:	google.com
+Address: 2a00:1450:4010:c05::8a
+Name:	google.com
+Address: 2a00:1450:4010:c05::65
+Name:	google.com
+Address: 2a00:1450:4010:c05::64
+Name:	google.com
+Address: 2a00:1450:4010:c05::8b
+4
 ## Анализ результатов
 ## Основные данные:
 DNS-сервер:
 ·	Локальный кэширующий: 192.168.50.1 (роутер)
-·	Порт: 53 
-·	IPv4 :96.7.128.175/198, 23.215.0.136/138, 23.192.228.80/84
-·	IPv6 :2600:1406:bc00:53::..., 2600:1408:ec00:36::...
+IPv4: 
+    142.250.74.46 — принадлежит Google LLC  (AS15169)
+IPv6: 
+
+    2a00:1450:4010:c05::8a  
+    2a00:1450:4010:c05::65  
+    2a00:1450:4010:c05::64  
+    2a00:1450:4010:c05::8b
