@@ -43,10 +43,11 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+						"name": "New Request",
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/posts/1"
 			},
 			"response": []
 		}
