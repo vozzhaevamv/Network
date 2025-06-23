@@ -4,10 +4,9 @@ from cryptography.fernet import Fernet
 from datetime import datetime
 
 # Конфигурация
-SERVER_IP = "127.0.0.1"  # Замените на реальный IP сервера
+SERVER_IP = "127.0.0.1"  
 SERVER_PORT = 5555
 
-# Вставить ключ, что и на сервере!
 KEY_STR = "pJDMSB0fPUIrR-3qAmFQvESNUhfnziHrpaLUMjcsMss="  # Замените на ключ из вывода сервера
 KEY = KEY_STR.encode()
 cipher = Fernet(KEY)
